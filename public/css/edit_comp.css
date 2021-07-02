@@ -1,0 +1,122 @@
+
+.edit_comp_main {
+  height: 720px;
+  background-color: rgba(rgba(255, 255, 255, 0));
+}
+
+.edit_comp_box {
+  position: absolute;
+  bottom: 25%;
+  left: 23%;
+  width: 980px;
+  height: 300px;
+  margin: 30px auto;
+  text-align: center;
+  background-color: rgba(rgba(255, 255, 255, 0));
+  z-index: 3;
+}
+
+.edit_comp_box h2 {
+  text-align: center;
+  font-size: 40px;
+  padding: 80px 0;
+  font-weight: bold;
+  z-index: 2;
+}
+
+a.edit_comp_btn {
+  border-radius: 0;
+  z-index: 2;
+}
+
+a.edit_comp_btn {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #000000;
+  border: solid 2px #000000;
+  border-radius: 3px;
+  transition: .4s;
+  z-index: 2;
+}
+
+a.edit_comp_btn:hover {
+  background: #000000;
+  color: white;
+}
+
+footer {
+  position: relative;
+  bottom: 100%;
+  z-index: 2;
+}
+
+CSSResult Skip Results Iframe
+EDIT ON
+#home {
+  clip-path: url(#cache);
+  z-index: 1;
+}
+
+#red {
+  fill: none;
+  opacity: 0.15;
+  stroke: #CE1B5F;
+  stroke-width: 12;
+  stroke-miterlimit:10;
+  animation: show 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; 
+  z-index: 1;
+}
+
+#blue {
+  fill: none;
+  opacity: 0.15;
+  stroke: #06A1C4;
+  stroke-width: 12;
+  stroke-miterlimit:10;
+  animation: show 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  z-index: 1;
+}
+
+#light-blue {
+  fill: none;
+  opacity: 0.15;
+  stroke: #06A1C4;
+  stroke-width: 6;
+  stroke-miterlimit:10;
+  stroke-dasharray: 200;
+  stroke-dashoffset: 800;
+  animation: draw 4s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;    
+  z-index: 1;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+ }
+    }
+
+@keyframes show {
+  0% {
+    opacity: 0.15;
+ }
+  50% {
+    opacity: 0.2;
+ }
+  100% {
+    opacity: 0.15;
+ }
+    }
+
+  .back {
+    z-index: 1;
+  }

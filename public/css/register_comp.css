@@ -1,0 +1,59 @@
+.register_complete_main {
+  background-image: url(../img/register_comp_img.jpg);
+  background-repeat: none;
+  background-size: cover;
+  opacity: 0.8;
+  height: 720px;
+}
+
+.register_comp_box {
+  width: 980px;
+  height: 300px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.register_comp_box h2 {
+  width: 35%;
+  font-size: 80px;
+  padding: 20px;
+  font-weight: bold;
+  color: #000;
+  position: relative;
+  top: 100px;
+  background-color: white;
+  opacity: 0.9;
+  z-index: -1;
+}
+
+.register_comp_box p {
+  width: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  top: 4em;
+  left: 2em;
+  background-color: white;
+  opacity: 0.9;
+}
+
+.register_comp_box a {
+  border-radius: 0;
+}
+
+.register_comp_box a {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: black;
+  border: solid 2px #000000;
+  border-radius: 3px;
+  transition: .4s;
+  font-size: 20px;
+  margin-top: 10em;
+}
+
+.register_comp_box a:hover {
+  background: #000000;
+  color: white;
+}

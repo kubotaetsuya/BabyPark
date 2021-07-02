@@ -1,0 +1,128 @@
+.my_page_edit_main {
+  width: 100%;
+  height: 100vh;
+  background-image:linear-gradient(-45deg, #dfdfdf 25%, #f9f8f7 25%, #f9f8f7 50%, #dfdfdf  50%, #dfdfdf 75%, #f9f8f7 75%, #f9f8f7);
+}
+
+.my_page_edit_main h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.my_page_edit_description {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid #000;
+  position: relative;
+  top: 50px;
+}
+
+.my_page_edit_description dl dt {
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 30px;
+}
+
+.my_page_edit_description dl dd textarea {
+  width: 90%;
+  height: 250px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0.5em 1em;
+  color: #5d627b;
+  background: white;
+  outline: none;
+  resize: none;
+  line-height: 1.4em;
+  letter-spacing: 0.4em;
+  border-top: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+.my_page_edit_description dl dd input[type=text] {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  padding: 3px 12px;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 16px;
+  outline: none;
+  line-height: 1.4em;
+  letter-spacing: 1px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22); 
+}
+
+.my_page_edit_description dl dd select {
+  width: 93%;
+  display: flex;
+  margin: 0 auto;
+	padding-right: 1em;
+	cursor: pointer;
+	text-indent: 0.01px;
+	text-overflow: ellipsis;
+	border: none;
+	outline: none;
+	background: transparent;
+	background-image: none;
+	box-shadow: none;
+	-webkit-appearance: none;
+	appearance: none;
+  border: 1px solid #bbbbbb;
+	border-radius: 2px;
+	background: #ffffff;
+  padding: 15px 38px 15px 15px;
+	color: #666666;
+  font-size: 16px
+}
+
+.my_page_edit_description dl dd select::before {
+  position: absolute;
+	top: 0.8em;
+	right: 0.9em;
+	width: 0;
+	height: 0;
+	padding: 0;
+	content: '';
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #666666;
+	pointer-events: none;
+}
+
+.my_page_edit_description button {
+  color: rgba(251,105,76,0.8);
+  padding: 20px;
+  margin: 20px 0;
+  position: relative;
+  left: 45%;
+  font-size: 12px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.808);
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  outline: 1px solid;
+  outline-color: rgba(247, 247, 247, 0.87);
+  outline-offset: 0px;
+  text-shadow: none;
+  transition: all 1.2s cubic-bezier(0.2, 1, 0.2, 1);
+}
+
+.my_page_edit_description button:hover {
+  border-color: #FFF;
+    box-shadow: inset 0 0 20px 
+    rgba(255, 255, 255, 0.5), 0 0 20px 
+    rgba(255, 255, 255, 0.2);
+    outline-color: transparent;
+    outline-offset: 12px;
+    text-shadow: 2px 2px 3px rgba(252, 156, 137, 0.87) ;
+    cursor: pointer
+}
+

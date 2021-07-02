@@ -1,0 +1,135 @@
+.edit_main {
+  margin: 50px 0;
+  height: 1080px;
+  opacity: 0.4;
+  width: 100%;
+	background-color: rgb(253, 218, 148);
+  font-size: 18px;
+  position: relative;
+  padding: 1em 2em;
+  text-align: center;
+}
+
+.edit_main dl dd input[type=text] {
+  width: 98%;
+  padding: 20px 0;
+  letter-spacing: 0.2em;
+  padding-left: 1rem;
+	margin: 30px 0;
+	font-size: 18px;
+}
+
+.edit_main dl dt {
+  font-size: 20px;
+  position: relative;
+  padding: 0.8em 2em;
+	text-align: center;
+}
+
+.edit_main dl dt::before,
+.edit_main dl dt::after {
+  position: absolute;
+  content: '';
+}
+
+/* 黒の枠 */
+.edit_main dl dt::after {
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+}
+/* 黒の枠 */
+.edit_main dl dt:before {
+  right: 0;
+  bottom: 0;
+  width: 30px;
+  height: 30px;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+#post_textarea {
+  width: 98%;
+  resize: none;
+  height: 500px;
+  font-size: 16px;
+  line-height: 2rem;
+  letter-spacing: 0.2em;
+  padding-left: 1rem;
+	margin: 30px 0;
+}
+
+#category_box {
+  width: 100%;
+	padding-right: 1em;
+	cursor: pointer;
+	text-indent: 0.01px;
+	text-overflow: ellipsis;
+	border: none;
+	outline: none;
+	background: transparent;
+	background-image: none;
+	box-shadow: none;
+	-webkit-appearance: none;
+	appearance: none;
+  border: 1px solid #bbbbbb;
+	border-radius: 2px;
+	background: #ffffff;
+  padding: 15px 38px 15px 15px;
+	color: #666666;
+  font-size: 16px;
+	margin: 30px 0;
+}
+
+#category_box::before {
+  position: absolute;
+	top: 0.8em;
+	right: 0.9em;
+	width: 0;
+	height: 0;
+	padding: 0;
+	content: '';
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #666666;
+	pointer-events: none;
+}
+
+.edit_btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #002fff;
+  width: 150px;
+  height: 150px;
+  line-height: 120px;
+  border-radius: 50%;
+  border: double 4px #668ad8;
+  text-align: center;
+  overflow: hidden;
+  transition: .6s;
+	background-color: rgba(149, 195, 248, 0.89);
+	font-size: 20px;
+	position: relative;
+	left: 108%;
+	bottom: 5.5em;
+}
+
+.edit_btn:hover {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+}
+
+/* .edit_btn {
+  color: white;
+	background-color: #000000;
+	width: 100%;
+	font-size: 1.2rem;
+	padding: 10px 2.5px;
+	border: 0;
+	border-radius: 8px;
+	cursor: pointer;
+  margin-top: 50px;
+} */

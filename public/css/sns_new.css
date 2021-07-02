@@ -1,0 +1,48 @@
+/* ソーシャルアカウント登録画面 */
+#sns_new {
+  height: 500px;
+  border: solid 1px #000;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.sns_new_title {
+  font-size: 40px;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  background-color: rgba(70,192,249,0.7);
+}
+
+.sns_new_title h2 {
+  text-align: center;
+}
+
+.sns_new_body p {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.sns_new_body dl dt {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.sns_new_body dl dd {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.sns_new_submit {
+  color: white;
+	background-color: #000000;
+  width: 300px;
+	font-size: 1.2rem;
+	padding: 10px 2.5px;
+	border: 0;
+	border-radius: 8px;
+	cursor: pointer;
+  margin-left: 35%;
+}
+
