@@ -2,6 +2,7 @@
   session_start();
   require_once(ROOT_PATH . 'Views/functions.php');
 
+  $test;
 ?>
 <!DOCTYPE html>
 <html lang="ja">
