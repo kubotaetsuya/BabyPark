@@ -1,5 +1,5 @@
 # BabyPark
-<img width="1270" alt="top画像" src="/Applications/MAMP/htdocs/BabyPark/public/img/TOPreadme.png">
+<img width="1270" alt="top画像" src="public/img/TOPreadme.png">
 
 ## 概要
 パパやママの育児の悩みを共有・解決するQ&Aアプリです。
@@ -8,7 +8,7 @@
 ## 使い方
 **MAMPのhtdocsにBabyParkのフォルダごと入れてローカルホストでアクセスしてください。**
 会員登録を行いログインすることによって投稿機能や編集機能などが使えるようになっています。
-<img width="1270" alt="投稿一覧" src="/Applications/MAMP/htdocs/BabyPark/public/img/postall.png">
+<img width="1270" alt="投稿一覧" src="public/img/postall.png">
 
 ログインしたら質問を投稿、または投稿されている質問にコメントで解答をしましょう。
 ## 環境
