@@ -68,7 +68,7 @@ $post = $params['post'];
               ステータス要素
             </dd>
           </dl>
-          <input type="hidden" name="post_id" value="<?= $post['post_id'] ?>">
+          <input type="hidden" name="post_id" value="<?php echo $post['post_id'] ?>">
           <input type="hidden" name="token" value="<?= h(setToken()) ?>">
           <button type="submit" name="submit" value="送信"  class="edit_btn">更新する</button>
         </form>

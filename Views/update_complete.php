@@ -36,7 +36,7 @@ $result = $post->update($params);
   <div class="update_comp_main">
     <div class="update_comp_box">
       <h2>更新が完了しました!</h2>
-      <a href="show.php">投稿を確認する</a>
+      <a href="show.php?id=<?php echo $params["post_id"] ?>">投稿を確認する</a>
     </div>
   </div>
 
